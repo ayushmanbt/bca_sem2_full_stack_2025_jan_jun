@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="">
+        <label for="username">Email</label>
+        <input type="number" id="username" name="uname" placeholder="Enter your username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="pwd" required>
+
+        <textarea name="big_text" id="textarea"></textarea>
+
+        <input type="submit" value="Login">
+    </form>
+
+    <h1>The following form submits to a google search</h1>
+    <form action="https://www.google.com/search" method="get">
+        <label for="searchbox">Search anything: </label>
+        <textarea name="q" placeholder="search anything" id="searchbox"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
