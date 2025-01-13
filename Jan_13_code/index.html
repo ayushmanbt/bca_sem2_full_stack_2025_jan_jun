@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples</title>
+</head>
+<body>
+    <h1>Checkboxes</h1>
+    <form id="checkbox_form">
+        <label>Select your favourite colors: </label>
+        <br>
+        <input type="checkbox" name="color" value="red" id="red">
+        <label for="red">Red</label>
+        <input type="checkbox" name="color" value="green" id="green">
+        <label for="green">Green</label>
+        <input type="checkbox" name="color" value="blue" id="blue">
+        <label for="blue">Blue</label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <h3>The form result</h3>
+    <div id="checkbox_form_result">
+
+    </div>
+    <h1>Checkboxes in different group</h1>
+    <form id="checkbox_form_2">
+        <label>Select your favourite colors: </label>
+        <br>
+        <input type="checkbox" name="color" value="red" id="red2">
+        <label for="red2">Red</label>
+        <input type="checkbox" name="color" value="green" id="green2">
+        <label for="green2">Green</label>
+        <br>
+        <input type="checkbox" name="color_2" value="blue" id="blue2">
+        <label for="blue2">Blue</label>
+        <input type="checkbox" name="color_2" value="orange" id="orange2">
+        <label for="orange2">Orange</label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <h3>The form result</h3>
+    <div id="checkbox_form_result_2">
+
+    </div>
+
+    <h1>Radio Buttons</h1>
+    <form id="radio_form">
+        <label>Select your favourite color: </label>
+        <br>
+        <input type="radio" name="color" value="red" id="red3">
+        <label for="red3">Red</label>
+        <input type="radio" name="color" value="green" id="green3">
+        <label for="green3">Green</label>
+        <input type="radio" name="color" value="blue" id="blue3">
+        <label for="blue3">Blue</label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <h3>The form result</h3>
+    <div id="radio_form_result">
+
+    </div>
+    <h1>Radio Buttons in different group</h1>
+    <form id="radio_form_2">
+        <label>Select your favourite colors: </label>
+        <br>
+        <input type="radio" name="color" value="red" id="red4">
+        <label for="red4">Red</label>
+        <input type="radio" name="color" value="green" id="green4">
+        <label for="green4">Green</label>
+        <br>
+        <input type="radio" name="color_2" value="blue" id="blue4">
+        <label for="blue4">Blue</label>
+        <input type="radio" name="color_2" value="orange" id="orange4">
+        <label for="orange4">Orange</label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <h3>The form result</h3>
+    <div id="radio_form_result_2">
+
+    </div>
+
+    <h1>Dropdown and sliders</h1>
+    <form id="dropdown_slider">
+        <label>Select your favourite color (single select): </label>
+        <br>
+        <select name="color" id="color5">
+            <option value="red">Red</option>
+            <option value="green" selected>Green</option>
+            <option value="blue">Blue</option>
+        </select>
+
+        
+        <br>
+        <label>Select your favourite colors (multiple select): </label>
+        <br>
+        <select name="color_combo" id="color6" multiple>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+        <br>
+        <label for="slider">Select a number between 1 and 10: </label>
+        <br>
+        <input type="range" name="slider" id="slider" min="1" max="10">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>The form result</h3>
+    <div id="dropdown_slider_result">
+
+    </div>
+
+    <h3>Table:</h3>
+
+    <table border=2>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th colspan="2">
+            Cost
+          </th>
+        </tr>
+        <tr>
+          <td rowspan="2">A</td>
+          <td colspan="2">B</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td>E</td>
+          
+        </tr>
+    </table>
+
+    <iframe width="500" height="500" src="https://www.youtube.com/embed/DLzxrzFCyOs?hl=en_US&version=3&rel=0&autoplay=1" frameborder="1" allowfullscreen></iframe>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
