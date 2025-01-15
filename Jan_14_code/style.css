@@ -1,0 +1,23 @@
+h3{
+    color: yellow;
+}
+
+body{
+    background: url('https://www.w3schools.com/css/img_lights.jpg');
+    background-size: cover;
+    /* background-color: aliceblue; */
+}
+
+p{
+    color: #aaa;
+}
+
+.lightblue{
+    color: aliceblue;
+}
+
+#warning{
+    color: red;
+    background-color: white;
+    font-size: 50px;
+}
