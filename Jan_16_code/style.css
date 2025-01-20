@@ -1,0 +1,17 @@
+.outer{
+    border: 1px solid black; 
+    padding: 20px; 
+    margin: 20px;
+}
+
+.inner{
+    border: 1px solid red; 
+    padding: 20px;
+    margin: 20px;
+}
+
+.border-radius{
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid red;
+}

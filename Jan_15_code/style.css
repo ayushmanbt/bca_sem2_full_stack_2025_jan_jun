@@ -10,6 +10,12 @@ h1{
     font-style: italic;
 }
 
+.outer {
+    background-color: #333;
+}
+
 p{
     font-family: 'Noto Sans', sans-serif;
+    background-color: #fff;
+    width: 50%;
 }
