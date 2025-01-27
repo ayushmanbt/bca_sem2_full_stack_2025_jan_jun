@@ -1,0 +1,24 @@
+/* ul li::marker{
+    content: "💀";
+} */
+
+a{
+    display: block;
+    padding: 10px 20px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: red;
+}
+
+button{
+    background: none;
+    outline: none;
+    border: none;
+    text-decoration: underline blue;
+    color: blue;
+    cursor: pointer;
+}
