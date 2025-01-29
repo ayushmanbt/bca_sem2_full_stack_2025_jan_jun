@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>ABC survey</h1>
+        <form>
+            <div>
+                <label class="block_label" for="name">Name: </label>
+                <input class="fullw" name="name" id="name" placeholder="John Doe" required>
+            </div>
+            <div>
+                <label class="block_label" for="age">Age Group </label>
+                <select class="fullw" name="age" id="age" required>
+                    <option value="" disabled selected>Select age range</option>
+                    <option value="1317">13 - 17</option>
+                    <option value="1824">18 - 24</option>
+                    <option value="2530">25 - 30</option>
+                    <option value="30+">30+</option>
+                </select>
+            </div>
+            <div>
+                <label class="block_label" for="gender">Select gender</label>
+                <input type="radio" name="gender" id="gender_male" value="male">
+                <label for="gender_male">Male</label>
+                <input type="radio" name="gender" id="gender_female" value="female">
+                <label for="gender_female">Female</label>
+            </div>
+            <div>
+                <label class="block_label" for="platforms">Platforms</label>
+                <input type="checkbox" name="platforms" id="platforms_netflix" value="netflix">
+                <label for="platforms_netflix">Netflix</label>
+                <input type="checkbox" name="platforms" id="platforms_amazon_prime" value="amazon_prime">
+                <label for="platforms_amazon_prime">Amazon Prime</label>
+                <input type="checkbox" name="platforms" id="platforms_hoichoi" value="hoichoi">
+                <label for="platforms_hoichoi">Hoi Choi</label>
+                <input type="checkbox" name="platforms" id="platforms_Crunchyroll" value="Crunchyroll">
+                <label for="platforms_Crunchyroll">Crunchyroll</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
