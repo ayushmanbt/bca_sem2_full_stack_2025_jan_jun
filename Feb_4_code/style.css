@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* img{
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+} */
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: underline;
+}
+
+h2{
+    margin: 10px 0;
+}
+
+ul, ol{
+    margin: 0 40px;
+}
+
+li{
+    margin: 5px 0;
+}
