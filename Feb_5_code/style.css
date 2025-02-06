@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00415a;
+}
+
+div{
+    background-color: #ccc;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
