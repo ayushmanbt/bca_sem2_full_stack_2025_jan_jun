@@ -8,11 +8,11 @@ Few Grid properties -
 
 `grid-template-columns` -  Gives a column layout. We can use `fr` unit to define the width / weightage of the columns.
 
-`grid-template-row` -  Gives a row layout. We can use `fr` unit to define the height / weightage of the row.
+`grid-template-rows` -  Gives a row layout. We can use `fr` unit to define the height / weightage of the row.
 
 `grid-row` - shorthand syntax to declare the `start/end` row line number or we can use `span number_of_rows`
 
-`grid-columns` - shorthand syntax to declare the `start/end` column line number or we can use `span number_of_columns`
+`grid-column` - shorthand syntax to declare the `start/end` column line number or we can use `span number_of_columns`
 
 **Alternative**
 
