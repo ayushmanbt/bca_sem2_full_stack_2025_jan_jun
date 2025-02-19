@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.grid > div{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.grid_item_1{
+    grid-row: 1/3;
+}
+
+.grid_item_4{
+    grid-row: 2/4;
+}
+
+.grid_item_1,
+.grid_item_4{
+    background: url("./image1.jpg");
+}
+
+.grid_item_2,
+.grid_item_3{
+    background: url("./image2.jpeg");
+}
